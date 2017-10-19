@@ -1,12 +1,17 @@
-package io.zenow.graphapi;
+package com.cagataygurturk.springbootboilerplate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GraphapiApplication {
+public class SpringBootBoilerplateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GraphapiApplication.class, args);
+
+		SpringApplication.run(SpringBootBoilerplateApplication.class, args);
+
+
 	}
+
+
 }
